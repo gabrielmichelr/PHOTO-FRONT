@@ -1,12 +1,26 @@
+*{
+  background-color: #27272b;
+  color: white;
+}
+
+.card-text{
+  text-align:center;
+}
+
 .header{
+margin-top: 10px;
  width: 100%;
  text-align: center;
  border-style: ridge;
-  background-color: #33313a;
   border: 0;
   font-size: 20px;
   letter-spacing: 4px;
   opacity: 0.9;
-  color:white;
   padding : 0px 0px 0px;
+}
+
+.icon{
+  float: center;
+  font-size: 20px;
+  text-align: center;
 }
