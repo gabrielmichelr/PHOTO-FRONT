@@ -1,6 +1,6 @@
 *{
-  background-color: #27272b;
-  color: white;
+  background-color: white ;
+  color: #27272b;
   
   
 }
@@ -14,15 +14,6 @@
   font-family: cursive;
   text-align:center;
 }
-.header{
-   background-image: url("https://cdn.pixabay.com/photo/2018/09/12/12/14/man-3672010_960_720.jpg")
-}
-
-
-
-
-
-
 
 h1{
   text-align:center;
@@ -53,4 +44,10 @@ footer{
   font-size: 20px;
   text-align: center;
   letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 500px) {
+  .columns {
+    width: 100%;
+  }
 }
