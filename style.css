@@ -1,6 +1,8 @@
 *{
   background-color: white ;
   color: #27272b;
+  font-family: cursive;
+  text-align:center;
   
   
 }
@@ -11,8 +13,6 @@
 }
 .card-title{
   text-decoration: underline;
-  font-family: cursive;
-  text-align:center;
 }
 
 h1{
@@ -35,8 +35,6 @@ margin-top: 10px;
 .image-intro{
   width:250px;
   padding-top: 5px;
-  
-  
 }
 
 footer{
@@ -44,6 +42,13 @@ footer{
   font-size: 20px;
   text-align: center;
   letter-spacing: 2px;
+}
+.tableau{
+  padding: 10px 10px 10px;
+}
+
+small{
+  font-size: 15px;
 }
 
 @media only screen and (max-width: 500px) {
