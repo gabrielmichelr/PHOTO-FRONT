@@ -36,7 +36,7 @@
 <body>
 <div class="slideshow-container">
 
-  <!-- Full-width images with number and caption text -->
+
   <div class="mySlides fade">
     <img src="https://cdn.pixabay.com/photo/2021/01/27/15/54/wedding-5955351_960_720.jpg" style="width:100%">
     <div class="text">MARIAGE</div>
@@ -71,13 +71,12 @@
     <img src="https://cdn.pixabay.com/photo/2017/06/24/02/56/art-2436545_960_720.jpg" style="width:100%">
     <div class="text">PORTRAIT</div>
   </div>
-  <!-- Next and previous buttons -->
+  
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
   <a class="next" onclick="plusSlides(1)">&#10095;</a>
 </div>
 <br>
-
-<!-- The dots/circles -->
+  
 <div style="text-align:center">
   <span class="dot" onclick="currentSlide(1)"></span>
   <span class="dot" onclick="currentSlide(2)"></span>
@@ -86,18 +85,22 @@
   <span class="dot" onclick="currentSlide(5)"></span>
   <span class="dot" onclick="currentSlide(6)"></span>
   <span class="dot" onclick="currentSlide(7)"></span>
-</div>
+  
 
 <style>
 .slideshow-container{
-  margin-bottom: 10px;
-  margin-top: 30px;
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
 }
+
+
+   body{
+     background-image: url("https://mobimg.b-cdn.net/v3/fetch/0b/0ba4d212195944bd2bd40952afb552dc.jpeg?h=600&r=0.5");  
+   }
+  
 </style>
 
-
-
-  
   <script src="script.js"></script>
 </body>
 
