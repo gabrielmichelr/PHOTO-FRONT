@@ -6,6 +6,7 @@
  <div class="image-fluid">
 		<div class="image-intro"> 
 <img src="https://cdn.pixabay.com/photo/2018/09/12/12/14/man-3672010_960_720.jpg" class="img-thumbnail" alt="photo">
+       
     </div>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -36,45 +37,61 @@
 <body>
 <div class="slideshow-container">
 
-
+  
   <div class="mySlides fade">
     <img src="https://cdn.pixabay.com/photo/2021/01/27/15/54/wedding-5955351_960_720.jpg" style="width:100%">
-    <div class="text">MARIAGE</div>
-  </div>
-
-  <div class="mySlides fade">
-    <img src="https://cdn.pixabay.com/photo/2022/05/22/19/04/pregnancy-7214373_960_720.jpg" style="width:100%">
-    <div class="text">GROSSESSE</div>
-  </div>
-
-  <div class="mySlides fade">
-    <img src="https://cdn.pixabay.com/photo/2018/02/12/21/53/baby-3149224_960_720.jpg" style="width:100%">
-    <div class="text">BEBE</div>
-  </div>
-
-  <div class="mySlides fade">
-    <img src="https://cdn.pixabay.com/photo/2019/11/08/09/27/panorama-4610864__340.jpg" style="width:100%">
-    <div class="text">FAMILLE</div>
-  </div>
-
-  <div class="mySlides fade">
-    <img src="https://cdn.pixabay.com/photo/2019/11/27/10/11/christening-4656562__340.jpg" class="card-img-top" alt="baptême" style="width:100%">
-    <div class="text">BAPTEME</div>
+    <div class="desc">MARIAGE</div>
   </div>
   
+    
+
+     
+  <div class="mySlides fade">
+    <img src="https://cdn.pixabay.com/photo/2022/05/22/19/04/pregnancy-7214373_960_720.jpg" style="width:100%">
+    <div class="desc">GROSSESSE</div>
+  </div>
+     
+
+      
+  <div class="mySlides fade">
+    <img src="https://cdn.pixabay.com/photo/2018/02/12/21/53/baby-3149224_960_720.jpg" style="width:100%">
+    <div class="desc">BEBE</div>
+  </div>
+     
+     
+ 
+  <div class="mySlides fade">
+    <img src="https://cdn.pixabay.com/photo/2019/11/08/09/27/panorama-4610864__340.jpg" style="width:100%">
+    <div class="desc">FAMILLE</div>
+  </div>
+   
+
+    
+  <div class="mySlides fade">
+    <img src="https://cdn.pixabay.com/photo/2019/11/27/10/11/christening-4656562__340.jpg" class="card-img-top" alt="baptême" style="width:100%">
+    <div class="desc">BAPTEME</div>
+  </div>
+     
+
+      
 <div class="mySlides fade">
     <img src="https://cdn.pixabay.com/photo/2016/11/29/03/37/couple-1867098_960_720.jpg" style="width:100%">
-    <div class="text">COUPLE</div>
+    <div class="desc">COUPLE</div>
   </div>
+   
 
+   
+ 
   <div class="mySlides fade">
     <img src="https://cdn.pixabay.com/photo/2017/06/24/02/56/art-2436545_960_720.jpg" style="width:100%">
-    <div class="text">PORTRAIT</div>
+    <div class="desc">PORTRAIT</div>
   </div>
+  
   
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
   <a class="next" onclick="plusSlides(1)">&#10095;</a>
 </div>
+
 <br>
   
 <div style="text-align:center">
@@ -89,18 +106,31 @@
 
 <style>
 .slideshow-container{
-  max-width: 1000px;
+  max-width: 950px;
   position: relative;
   margin: auto;
 }
 
 
    body{
-     background-image: url("https://assets.meretmarine.com/s3fs-public/styles/large_lg/public/images/2022-02/12_181.jpg?h=537825ff&itok=4uwtAufk");    background-repeat: no-repeat;
+     background-image: black;
   background-attachment: fixed;  
   background-size: cover;
-  background-color: #cccccc;
+  background-color: lightgray;
+  padding-left: 5px;
    }
+
+  div.desc {
+  font-size: 50px;  
+  padding: 15px;
+  text-align: center;
+  font-weight: bold;
+font-style: italic;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
   
 </style>
 

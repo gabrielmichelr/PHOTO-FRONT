@@ -22,23 +22,16 @@
 </head>
   <h1>CONTACT</h1>
 <body>
-<style>
-   body{
-     background-image: url("https://assets.meretmarine.com/s3fs-public/styles/large_lg/public/images/2022-02/12_181.jpg?h=537825ff&itok=4uwtAufk");
-   background-repeat: no-repeat;
-  background-attachment: fixed;  
-  background-size: cover;
-  background-color: #cccccc;
-  
-   }
- </style>
+
+<img src="img/capture.PNG"  alt="logo" width="20%" height="10px"/>
+  <div class ="tableau">
 <form id="fs-frm" name="department-contact-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
   <fieldset id="fs-frm-inputs">
     <label for="full-name">NOM et PRENOM</label>
     <input type="text" name="name" id="full-name" placeholder="Veuillez remplir cette case" required="">
     <label for="email-address">ADRESSE MAIL</label>
     <input type="email" name="_replyto" id="email-address" placeholder="" required="exemple abcd@yahoo.fr">
-    <label for="department">DEPARTEMENT</label>
+    <label for="department">THEMES</label>
     <select name="department" id="department" required="">
       <option value="" selected="" disabled="">Selectionnez une option</option>
       <option value="Renseignements">Renseignements</option>
@@ -51,7 +44,9 @@
     <input type="hidden" name="_subject" id="email-subject" value="Department Contact Form Submission">
   </fieldset>
   <input type="submit" value="envoyer le message">
-</form><style>
+</form>
+  </div>
+  <style>
 #fs-frm input,
 #fs-frm select,
 #fs-frm textarea,
@@ -74,9 +69,9 @@
 #fs-frm label,
 #fs-frm legend,
 #fs-frm ::placeholder {
-  font-size: .825rem;
-  margin-bottom: .5rem;
-  padding-top: .2rem;
+  font-size:  1 rem;
+  margin-bottom: .2rem;
+  padding-top:  2 rem;
   display: flex;
   align-items: baseline;
 }
@@ -101,7 +96,7 @@
 }
 #fs-frm [type="text"],
 #fs-frm [type="email"] {
-  width: 100%;
+  width: 75%;
 }
 #fs-frm [type="button"],
 #fs-frm [type="submit"],
@@ -158,17 +153,42 @@
   margin-right: 3%;
 }
 
+tableau , label{
+  text-align: center;
+}
+
+input{
+  margin: 4.4rem;
+}
+
+ 
+  
 body{
-     background-image: url("https://assets.meretmarine.com/s3fs-public/styles/large_lg/public/images/2022-02/12_181.jpg?h=537825ff&itok=4uwtAufk");
+  background-color: #cccccc;
+   background-image: url("https://assets.meretmarine.com/s3fs-public/styles/large_lg/public/images/2022-02/12_181.jpg?h=537825ff&itok=4uwtAufk");
    background-repeat: no-repeat;
   background-attachment: fixed;  
   background-size: cover;
-  background-color: #cccccc;
+  font-size: 1.2em;
+  padding-left: 5px;
+  
 
    }
 
 form{
-  margin-top: 2em;
+  margin-top: 4em;
+  text-align: center;
+}
+
+footer{
+  float: center;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  color: black;
+  background-color: black;
+  margin-top: 2.5em;
+
 }
   
 </style>
@@ -200,7 +220,6 @@ form{
 <a href="https://fr-fr.facebook.com/" class="fa fa-facebook"></a>
 <a href="https://twitter.com/?lang=fr" class="fa fa-twitter"></a>
 <a href="https://www.instagram.com/?hl=fr" class="fa fa-instagram"></a></div>
-   <a href="#" class="btn btn-primary">Retour en haut ↑</a>
     </footer>
 
 
