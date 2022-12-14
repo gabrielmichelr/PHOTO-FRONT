@@ -6,221 +6,285 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="style.css" rel="stylesheet" type="text/css" />
 
-<meta name="description" content="Charles CANTIN, pour l'amour de la photographie!">
-	<meta name="keywords" content="Photographie,Portfolio, passion photographe, portraits et galeries, prestation photos ">
-	<meta name="author" content="Charles CANTIN">
+  <meta name="description" content="Charles CANTIN, pour l'amour de la photographie!">
+  <meta name="keywords"
+    content="Photographie,Portfolio, passion photographe, portraits et galeries, prestation photos ">
+  <meta name="author" content="Charles CANTIN">
   <title>Charles CANTIN</title>
-	<link href="style.css" rel="stylesheet" type="text/css" />
-  <link rel="stylesheet" media="screen and (max-width: 500px)" href="smallscreen.css" type="text/css"/>
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
-	 crossorigin="anonymous">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" media="screen and (max-width: 500px)" href="smallscreen.css" type="text/css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <div class="image-fluid">
-		<div class="image-intro"> 
-<img src="https://cdn.pixabay.com/photo/2018/09/12/12/14/man-3672010_960_720.jpg" class="img-thumbnail" alt="photo">
+    <div class="image-intro">
+      <img src="https://cdn.pixabay.com/photo/2018/09/12/12/14/man-3672010_960_720.jpg" class="img-thumbnail"
+        alt="photo">
     </div>
 </head>
-  <h1>CONTACT</h1>
+<h1>CONTACT</h1>
+
 <body>
 
-<img src="img/capture.PNG"  alt="logo" width="20%" height="10px"/>
-  <div class ="tableau">
-<form id="fs-frm" name="department-contact-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
-  <fieldset id="fs-frm-inputs">
-    <label for="full-name">NOM et PRENOM</label>
-    <input type="text" name="name" id="full-name" placeholder="Veuillez remplir cette case" required="">
-    <label for="email-address">ADRESSE MAIL</label>
-    <input type="email" name="_replyto" id="email-address" placeholder="" required="exemple abcd@yahoo.fr">
-    <label for="department">THEMES</label>
-    <select name="department" id="department" required="">
-      <option value="" selected="" disabled="">Selectionnez une option</option>
-      <option value="Renseignements">Renseignements</option>
-      <option value="Demande de devis">Demande de devis</option>
-      <option value="Shipping Receiving">Livraisons de photos</option>
-      <option value="Billing Accounting">Factures et Règlements</option>
+  <img src="img/capture.PNG" alt="logo" width="20%" height="10px" />
+  <div class="tableau">
+    <form id="fs-frm" name="department-contact-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}"
+      method="post">
+      
+      <div class="row g-3">
+  <div class="col">
+    <input type="text" class="form-control" placeholder="NOM" aria-label="First name">
+  </div>
+  <div class="col">
+    <input type="text" class="form-control" placeholder="PRENOM" aria-label="Last name">
+  </div>
+</div>
+      <fieldset id="fs-frm-inputs">
+       <form class="row g-3">
+  <div class="col-md-6">
+    <label for="inputEmail4" class="form-label"></label>
+    
+    <input type="email" class="form-control" placeholder="EMAIL" id="inputEmail4">
+  </div>
+  <div class="col-md-6">
+  </div>
+  <div class="col-8">
+    <label for="inputAddress" class="form-label"></label>
+    <input type="text" class="form-control" placeholder="ADRESSE" id="inputAddress">
+  </div>
+         
+  <div class="row g-3">
+  <div class="col-md-6">
+    <label for="inputCity" class="form-label"></label>
+    <input type="text" class="form-control" placeholder="VILLE" id="inputCity">
+  </div>
+ <div class="col-md-2">
+    <label for="inputZip" class="form-label"></label>
+    <input type="text" class="form-control" placeholder="CODE POSTAL" id="inputZip">
+  </div>         
+  </div>
+  <div class="col-md-4">
+    <label for="inputState" class="form-label"></label>
+    <select id="inputState" class="form-select">
+      <option selected>SELECTIONNEZ...</option>
+      <option>Renseignements</option>
+      <option>Demande de devis</option>
+      <option>Livraisons de photos</option>
+      <option>Factures et Règlements</option>
+      
     </select>
-    <label for="message">Message</label>
-    <textarea rows="5" name="message" id="message" placeholder="Si vous voulez m'écrire, je serai ravi de vous répondre :)." required=""></textarea>
-    <input type="hidden" name="_subject" id="email-subject" value="Department Contact Form Submission">
-  </fieldset>
-  <input type="submit" value="envoyer le message">
-</form>
+  </div>
+      </label> 
+  <div class="col-12">
+</form>      
+        <label for="message">Message</label>
+        <textarea rows="5" name="message" id="message"
+          placeholder="Si vous voulez m'écrire, je serai ravi de vous répondre :)." required=""></textarea>
+        <input type="hidden" name="_subject" id="email-subject" value="Department Contact Form Submission">
+      </fieldset>
+      <button id="button">envoyer le message</button>
+     
+    
+    </form>
   </div>
   <style>
-#fs-frm input,
-#fs-frm select,
-#fs-frm textarea,
-#fs-frm fieldset,
-#fs-frm optgroup,
-#fs-frm label,
-#fs-frm #card-element:disabled {
-  font-family: inherit;
-  font-size: 100%;
-  color: inherit;
-  border: none;
-  border-radius: 0;
-  display: block;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-}
-#fs-frm label,
-#fs-frm legend,
-#fs-frm ::placeholder {
-  font-size:  1 rem;
-  margin-bottom: .2rem;
-  padding-top:  2 rem;
-  display: flex;
-  align-items: baseline;
-}
+    #fs-frm input,
+    #fs-frm select,
+    #fs-frm textarea,
+    #fs-frm fieldset,
+    #fs-frm optgroup,
+    #fs-frm label,
+    #fs-frm #card-element:disabled {
+      font-family: inherit;
+      font-size: 100%;
+      color: inherit;
+      border: none;
+      border-radius: 0;
+      display: block;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+    }
 
-#fs-frm input,
-#fs-frm select,
-#fs-frm textarea,
-#fs-frm #card-element {
-  border: 1px solid rgba(0,0,0,0.2);
-  background-color: rgba(255,255,255,0.9);
-  padding: .75em 1rem;
-  margin-bottom: 1.5rem;
-}
-#fs-frm input:focus,
-#fs-frm select:focus,
-#fs-frm textarea:focus {
-  background-color: white;
-  outline-style: solid;
-  outline-width: thin;
-  outline-color: gray;
-  outline-offset: -1px;
-}
-#fs-frm [type="text"],
-#fs-frm [type="email"] {
-  width: 75%;
-}
-#fs-frm [type="button"],
-#fs-frm [type="submit"],
-#fs-frm [type="reset"] {
-  width: auto;
-  cursor: pointer;
-  -webkit-appearance: button;
-  -moz-appearance: button;
-  appearance: button;
-}
-#fs-frm [type="button"]:focus,
-#fs-frm [type="submit"]:focus,
-#fs-frm [type="reset"]:focus {
-  outline: none;
-}
-#fs-frm [type="submit"],
-#fs-frm [type="reset"] {
-  margin-bottom: 0;
-}
-#fs-frm select {
-  text-transform: none;
-}
+    #fs-frm label,
+    #fs-frm legend,
+    #fs-frm ::placeholder {
+      font-size: 1 rem;
+      margin-bottom: .2rem;
+      padding-top: 2 rem;
+      display: flex;
+      align-items: baseline;
+    }
 
-#fs-frm [type="checkbox"] {
-  -webkit-appearance: checkbox;
-  -moz-appearance: checkbox;
-  appearance: checkbox;
-  display: inline-block;
-  width: auto;
-  margin: 0 .5em 0 0 !important;
-}
+    #fs-frm input,
+    #fs-frm select,
+    #fs-frm textarea,
+    #fs-frm #card-element {
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: .75em 1rem;
+      margin-bottom: 1.5rem;
+    }
 
-#fs-frm [type="radio"] {
-  -webkit-appearance: radio;
-  -moz-appearance: radio;
-  appearance: radio;
-}
+    #fs-frm input:focus,
+    #fs-frm select:focus,
+    #fs-frm textarea:focus {
+      background-color: white;
+      outline-style: solid;
+      outline-width: thin;
+      outline-color: gray;
+      outline-offset: -1px;
+    }
+
+    #fs-frm [type="text"],
+    #fs-frm [type="email"] {
+      width: 75%;
+    }
+
+    #fs-frm [type="button"],
+    #fs-frm [type="submit"],
+    #fs-frm [type="reset"] {
+      width: auto;
+      cursor: pointer;
+      -webkit-appearance: button;
+      -moz-appearance: button;
+      appearance: button;
+    }
+
+    #fs-frm [type="button"]:focus,
+    #fs-frm [type="submit"]:focus,
+    #fs-frm [type="reset"]:focus {
+      outline: none;
+    }
+
+    #fs-frm [type="submit"],
+    #fs-frm [type="reset"] {
+      margin-bottom: 0;
+    }
+
+    #fs-frm select {
+      text-transform: none;
+    }
+
+    #fs-frm [type="checkbox"] {
+      -webkit-appearance: checkbox;
+      -moz-appearance: checkbox;
+      appearance: checkbox;
+      display: inline-block;
+      width: auto;
+      margin: 0 .5em 0 0 !important;
+    }
+
+    #fs-frm [type="radio"] {
+      -webkit-appearance: radio;
+      -moz-appearance: radio;
+      appearance: radio;
+    }
 
 
-#fs-frm fieldset.locale input[name="city"],
-#fs-frm fieldset.locale select[name="state"],
-#fs-frm fieldset.locale input[name="postal-code"] {
-  display: inline;
-}
-#fs-frm fieldset.locale input[name="city"] {
-  width: 52%;
-}
-#fs-frm fieldset.locale select[name="state"],
-#fs-frm fieldset.locale input[name="postal-code"] {
-  width: 20%;
-}
-#fs-frm fieldset.locale input[name="city"],
-#fs-frm fieldset.locale select[name="state"] {
-  margin-right: 3%;
-}
+    #fs-frm fieldset.locale input[name="city"],
+    #fs-frm fieldset.locale select[name="state"],
+    #fs-frm fieldset.locale input[name="postal-code"] {
+      display: inline;
+    }
 
-tableau , label{
-  text-align: center;
-}
+    #fs-frm fieldset.locale input[name="city"] {
+      width: 52%;
+    }
 
-input{
-  margin: 4.4rem;
-}
+    #fs-frm fieldset.locale select[name="state"],
+    #fs-frm fieldset.locale input[name="postal-code"] {
+      width: 20%;
+    }
 
- 
-  
-body{
-  background-color: #cccccc;
-   background-image: url("https://assets.meretmarine.com/s3fs-public/styles/large_lg/public/images/2022-02/12_181.jpg?h=537825ff&itok=4uwtAufk");
-   background-repeat: no-repeat;
-  background-attachment: fixed;  
-  background-size: cover;
-  font-size: 1.2em;
-  padding-left: 5px;
-  
+    #fs-frm fieldset.locale input[name="city"],
+    #fs-frm fieldset.locale select[name="state"] {
+      margin-right: 3%;
+    }
 
-   }
+    label {
+      text-align: center;
+    }
 
-form{
-  margin-top: 4em;
-  text-align: center;
-}
+    input {
+      margin: 4.4rem;
+    }
 
-footer{
-  float: center;
-  font-size: 20px;
-  text-align: center;
-  letter-spacing: 2px;
-  color: black;
-  background-color: black;
-  margin-top: 2.5em;
 
-}
-  
-</style>
+
+    body {
+      background-color: #cccccc;
+      background-image: url("https://cdn.pixabay.com/photo/2015/11/05/23/02/chichen-itza-1025099_960_720.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      font-size: 1.2em;
+      padding-left: 5px;
+
+
+    }
+
+    form {
+      margin-top: 4em;
+      text-align: center;
+    }
+
+    footer {
+      float: center;
+      font-size: 20px;
+      text-align: center;
+      letter-spacing: 2px;
+      color: black;
+      background-color: black;
+      margin-top: 2.5em;
+
+    }
+
+    h1 {
+      text-align: center;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      color: white;
+      font-style: italic;
+      font-size: 80px;
+    }
+
+    
+   
+    
+  </style>
+
 
 </body>
-  
- <footer>
-<ul class="nav justify-content-center">
-  <li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="page2galerie.html">Mes galeries de photos</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="page3prestations.html">Tarifs et Prestations</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="page4contact.html">Contact</a>
-  </li>
-</ul>
+<footer>
+  <ul class="nav justify-content-center">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="page2galerie.html">Mes galeries de photos</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="page3prestations.html">Tarifs et Prestations</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="page4contact.html">Contact</a>
+    </li>
+  </ul>
 
-</nav>
+  </nav>
   <script src="script.js"></script>
 
 
 
-<div class="icon" id="icons">
-<a href="https://fr-fr.facebook.com/" class="fa fa-facebook"></a>
-<a href="https://twitter.com/?lang=fr" class="fa fa-twitter"></a>
-<a href="https://www.instagram.com/?hl=fr" class="fa fa-instagram"></a></div>
-    </footer>
+  <div class="icon" id="icons">
+    <a href="https://fr-fr.facebook.com/" class="fa fa-facebook"></a>
+    <a href="https://twitter.com/?lang=fr" class="fa fa-twitter"></a>
+    <a href="https://www.instagram.com/?hl=fr" class="fa fa-instagram"></a>
+  </div>
+</footer>
 
 
 </html>

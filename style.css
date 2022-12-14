@@ -3,8 +3,6 @@
   }
 
 
-
-
 .slideshow-container {
   position: relative;
   
@@ -82,8 +80,8 @@
 }
 
 @keyframes fade {
-  from {opacity: .9}
-  to {opacity: 1}
+  from {opacity: 10}
+  to {opacity: 10}
 }
 
 .card-text{
@@ -92,6 +90,8 @@
 }
 .card-title{
   text-decoration: underline;
+  font-size: 30px;
+ font-style: italic;
 }
 
 h1{
@@ -100,6 +100,7 @@ h1{
   padding-bottom: 15px;
   color: white;
   font-style: italic;
+  font-size: 80px;
 }
 .header{
 margin-top: 10px;
