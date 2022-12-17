@@ -26,64 +26,31 @@
 
 <body>
 
-  <img src="img/capture.PNG" alt="logo" width="20%" height="10px" />
-  <div class="tableau">
-    <form id="fs-frm" name="department-contact-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}"
-      method="post">
-      
-      <div class="row g-3">
-  <div class="col">
-    <input type="text" class="form-control" placeholder="NOM" aria-label="First name">
-  </div>
-  <div class="col">
-    <input type="text" class="form-control" placeholder="PRENOM" aria-label="Last name">
-  </div>
-</div>
-      <fieldset id="fs-frm-inputs">
-       <form class="row g-3">
-  <div class="col-md-6">
-    <label for="inputEmail4" class="form-label"></label>
-    
-    <input type="email" class="form-control" placeholder="EMAIL" id="inputEmail4">
-  </div>
-  <div class="col-md-6">
-  </div>
-  <div class="col-8">
-    <label for="inputAddress" class="form-label"></label>
-    <input type="text" class="form-control" placeholder="ADRESSE" id="inputAddress">
-  </div>
-         
-  <div class="row g-3">
-  <div class="col-md-6">
-    <label for="inputCity" class="form-label"></label>
-    <input type="text" class="form-control" placeholder="VILLE" id="inputCity">
-  </div>
- <div class="col-md-2">
-    <label for="inputZip" class="form-label"></label>
-    <input type="text" class="form-control" placeholder="CODE POSTAL" id="inputZip">
-  </div>         
-  </div>
-  <div class="col-md-4">
-    <label for="inputState" class="form-label"></label>
-    <select id="inputState" class="form-select">
-      <option selected>SELECTIONNEZ...</option>
-      <option>Renseignements</option>
-      <option>Demande de devis</option>
-      <option>Livraisons de photos</option>
-      <option>Factures et Règlements</option>
-      
+ <form id="fs-frm" name="department-contact-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
+  <fieldset id="fs-frm-inputs">
+    <label for="full-name">Full Name</label>
+    <input type="text" name="name" id="full-name" placeholder="NOM et PRENOM" required="">
+    <label for="email-address">Email Address</label>
+    <input type="email" name="_replyto" id="email-address" placeholder="email" required="">
+    <label for="department">Department</label>
+    <select name="department" id="department" required="">
+      <option value="" selected="" disabled="">Selectionnez</option>
+      <option value="Front Desk">Renseignements</option>
+      <option value="Customer Care">Demande de devis</option>
+      <option value="Shipping Receiving">Livraison de photos</option>
+      <option value="Billing Accounting">Factures et Règlements</option>
     </select>
+    <label for="message">Message</label>
+    <textarea rows="5" name="message" id="message" placeholder="Vous pouvez me laisser un message." required=""></textarea>
+    <input type="hidden" name="_subject" id="email-subject" value="Department Contact Form Submission">
+  </fieldset>
+  <input type="submit" value="ENVOYEZ">
+</form>
   </div>
       </label> 
   <div class="col-12">
 </form>      
-        <label for="message">Message</label>
-        <textarea rows="5" name="message" id="message"
-          placeholder="Si vous voulez m'écrire, je serai ravi de vous répondre :)." required=""></textarea>
-        <input type="hidden" name="_subject" id="email-subject" value="Department Contact Form Submission">
-      </fieldset>
-      <button id="button">envoyer le message</button>
-     
+    
     
     </form>
   </div>
@@ -101,7 +68,7 @@
       border: none;
       border-radius: 0;
       display: block;
-      width: 100%;
+      width: 90%;
       padding: 0;
       margin: 0;
       -webkit-appearance: none;
